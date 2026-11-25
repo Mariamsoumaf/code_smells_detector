@@ -1,4 +1,4 @@
-# Code Smells Detector (Midterm Project – Software Construction)
+# Code Smells Detector (Software Construction)
 
 A small Python tool that reads a `.py` file and finds **Clean Code smells**
 from Chapters 1–4 of *Clean Code* (Robert C. Martin).
@@ -47,7 +47,7 @@ Hard-to-read code wastes time and money.
 ## 7. How to run
 ```bash
 python main.py examples/bad_example.py     # 17 smells
-python main.py examples/clean_example.py   # 0 smells (same behavior)
+python main.py examples/clean_example.py   # 0 smells (same run)
 python main.py name_checks.py              # the tool checks itself: 0 smells
 ```
 Requires Python 3.8+. No extra packages.
